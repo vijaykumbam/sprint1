@@ -18,6 +18,7 @@ public class RawmaterialRepo
 	public boolean addRawMaterial(RawMaterialBean bean)
 	{
 		llref.add(bean);
+		System.out.println(llref);
 		return true;
 	}
 }
