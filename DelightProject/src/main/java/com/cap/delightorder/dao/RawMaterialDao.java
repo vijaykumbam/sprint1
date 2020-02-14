@@ -7,7 +7,8 @@ public class RawMaterialDao
 {
 	RawmaterialRepo repo = new RawmaterialRepo();
 	
-	public boolean rawMaterialDao(RawMaterialBean bean) {
+	public boolean rawMaterialDao(RawMaterialBean bean)
+	{
 		
 		return(repo.addRawMaterial(bean));
 				
